@@ -1,32 +1,31 @@
-
 #include <iostream>
 using namespace std;
  
 int main() {
     setlocale(LC_ALL, "Russian");
-    printf("ЉалькулЯтор запущен!\n");
+    printf("РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ Р·Р°РїСѓС‰РµРЅ!\n");
     int num1, num2, suma, minus, del, umn;
     string znak;
-    cout << ("‚ведите первое число: ");
+    cout << ("Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ: ");
     cin >> num1;
-    cout << ("‚ведите второе число: ");
+    cout << ("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ: ");
     cin >> num2;
-    cout << ("—то вы хотите сделать? * или + или - или / ") << endl;
+    cout << ("Р§С‚Рѕ РІС‹ С…РѕС‚РёС‚Рµ СЃРґРµР»Р°С‚СЊ? * РёР»Рё + РёР»Рё - РёР»Рё / ") << endl;
     cin >> znak;
     if (znak == "+") {
         suma = num1 + num2;
-        cout << "ђезультат суммы: " << suma << endl;
+        cout << "Р РµР·СѓР»СЊС‚Р°С‚ СЃСѓРјРјС‹: " << suma << endl;
     }else if (znak == "-") {
         minus = num1 - num2;
-        cout << "ђезультат вычитаниЯ: " << minus << endl;
+        cout << "Р РµР·СѓР»СЊС‚Р°С‚ РІС‹С‡РёС‚Р°РЅРёСЏ: " << minus << endl;
     }
     else if (znak == "*") {
         umn = num1 * num2;
-        cout << "ђезультат умножениЯ: " << umn << endl;
+        cout << "Р РµР·СѓР»СЊС‚Р°С‚ СѓРјРЅРѕР¶РµРЅРёСЏ: " << umn << endl;
     }
     else if (znak == "/") {
         del = num1 / num2;
-        cout << "ђезультат делениЯ: " << del << endl;
+        cout << "Р РµР·СѓР»СЊС‚Р°С‚ РґРµР»РµРЅРёСЏ: " << del << endl;
     }
  
 }
